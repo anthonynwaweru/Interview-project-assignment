@@ -7,7 +7,7 @@ read publicIp
 # read keyFile
 echo "enter user"
 read user
-ssh $user@$publicIp  "
+ssh $user@$publicIp << EOF "
 sudo -s;
 sudo apt update;
 sudo apt-get upgrade;
@@ -15,4 +15,7 @@ sudo apt install docker;
 git clone https://github.com/discourse/discourse_docker.git /var/discourse;
 cd /var/discourse;
 ./discourse-setup;
+cd containers/app.yml;
+ls;
 "
+EOF
