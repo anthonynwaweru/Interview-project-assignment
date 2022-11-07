@@ -26,7 +26,7 @@ ssh user@{host server public ip address goes here}
 
 ## 6. Set-up discourse configurations by doing the following
 
-1. run ./disccourse-setup
+1. run ./discourse-setup
 
 ##### Prompted with the following questions:
 
