@@ -1,4 +1,4 @@
-#! /bin/sh
+#! /bin/bash
 #make sure you have created your SSH keys in home directory
 #enter your server public ip Addre
 echo 'enter ip address' 
