@@ -10,7 +10,6 @@ read user
 
  
 ssh $user@$publicIp "
-
 sudo apt-get update;
 sudo apt-get upgrade;
 sudo apt-get install ca-certificates curl gnupg lsb-release
