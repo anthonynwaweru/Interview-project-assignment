@@ -1,6 +1,6 @@
 #! /bin/bash
-#make sure you have created your SSH keys in home directory
-#enter your server public ip Addre
+# make sure you have created your SSH keys in home directory
+# enter your server public ip Addre
 echo 'enter ip address' 
 read publicIp
 # echo 'enter ssh key file name' 
@@ -26,28 +26,28 @@ sudo ./discourse-setup;
 
 
 # when this :[<<"containers/app.yml memory parameters updated" >>] is diplayed on the terminal 
-#Enter your personal details as shown below
+# Enter your personal details as shown below
 
-#prompt 1, Hostname for your Discourse? [discourse.example.com]: 
-    #ENTER
+# prompt 1, Hostname for your Discourse? [discourse.example.com]: 
+    # ENTER
 
-#prompt 2 Email address for admin account(s)? [me@example.com,you@example.com]:     
-    #ENTER
+# prompt 2 Email address for admin account(s)? [me@example.com,you@example.com]:     
+    # ENTER
 
-#prompt 3 SMTP server address? [smtp.example.com]: 
-    #Enter
+# prompt 3 SMTP server address? [smtp.example.com]: 
+    # Enter
 
-#prompt 4 SMTP port? [587]: 
-    #ENTER
+# prompt 4 SMTP port? [587]: 
+    # ENTER
 
-#prompt 5 SMTP user name? [user@example.com]: 
-    #ENTER
+# prompt 5 SMTP user name? [user@example.com]: 
+    # ENTER
 
-#prompt 6 SMTP password? [pa$$word]: 
-    #ENTER
+# prompt 6 SMTP password? [pa$$word]: 
+    # ENTER
 
-#prompt 7 Let's Encrypt account email? (ENTER to skip) [me@example.com]: 
-    #ENTER
+# prompt 7 Let's Encrypt account email? (ENTER to skip) [me@example.com]: 
+    # ENTER
 
 # Optional Maxmind License key () [xxxxxxxxxxxxxxxx]:
-    #ENTER
+    # ENTER
